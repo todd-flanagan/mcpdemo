@@ -1,5 +1,5 @@
 from typing import Tuple, Any, Union
-from modelcontextprotocol.sdk.client import Client
+from mcp import Client
 import json
 
 async def call_tool(client: Client, tool_name: str, input_args: str) -> Tuple[Union[str, None], Union[Any, None]]:
