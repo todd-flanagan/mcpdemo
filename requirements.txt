@@ -1,4 +1,4 @@
-openai>=1.0.0
-mcp
+litellm>=1.0.0
+mcp>=1.6
 typing-extensions>=4.5.0
 colorama>=0.4.6

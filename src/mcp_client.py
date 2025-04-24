@@ -1,5 +1,5 @@
-from modelcontextprotocol.sdk.client import Client
-from modelcontextprotocol.sdk.client.stdio import StdioClientTransport
+from mcp import Client
+from mcp import StdioClientTransport
 from env import MCP_SERVER_ARGS, MCP_SERVER_COMMAND
 
 transport = StdioClientTransport(
