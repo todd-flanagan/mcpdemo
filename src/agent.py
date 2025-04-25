@@ -1,5 +1,5 @@
 from openai import OpenAI
-from mcp_client import mcp_client
+from client import mcp_client, initialize_client
 from openai_utils import apply_tool_calls_if_present, is_done, map_tool_list_to_openai_tools
 from env import OPENAI_API_KEY, OPENAI_MODEL
 from messages import MessageHandler, MessageType

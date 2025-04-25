@@ -1,4 +1,4 @@
-from mcp_client import mcp_client, initialize_client
+from client import mcp_client, initialize_client
 
 # Initialize the client
 async def init():

@@ -1,8 +1,8 @@
 from typing import List, Dict, Any, TypedDict
 from openai.types.chat import ChatCompletion
 from messages import MessageType
-from mcp import call_tool
-from mcp_client import mcp_client
+from mcptool import call_tool
+from client import mcp_client
 
 class OpenAiToolsInput(TypedDict):
     type: str
